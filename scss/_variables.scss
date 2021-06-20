@@ -3,15 +3,6 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
-// GSC Colors
-  $gsc-primary : #99cc00;
-  $gsc-secondary:#FEA500;
-  
-  $gsc-celeste:#01E7FD;
-  $gsc-azul:#00B1C2;
-  $gsc-verde:#B1EC00;
-
-
 // Color system
 
 $white:    #fff !default;
@@ -53,9 +44,24 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
+// GSC Colors
+$gsc-primary : #99cc00 !default;
+$gsc-secondary:#FEA500 !default;
+  
+$gsc-celeste:#01E7FD !default;
+$gsc-azul:#00B1C2 !default;
+$gsc-verde:#B1EC00 !default;
+
 $colors: () !default;
 $colors: map-merge(
   (
+    // GSC Colors
+    "gsc-primary" : $gsc-primary,
+    "gsc-secondary":$gsc-secondary,
+    "gsc-celeste":$gsc-celeste,
+    "gsc-azul":$gsc-azul,
+    "gsc-verde":$gsc-verde,
+    // end GSC Colors
     "blue":       $blue,
     "indigo":     $indigo,
     "purple":     $purple,
