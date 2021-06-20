@@ -51,6 +51,8 @@ $gsc-secondary:#FEA500 !default;
 $gsc-celeste:#01E7FD !default;
 $gsc-azul:#00B1C2 !default;
 $gsc-verde:#B1EC00 !default;
+$gsc-amarillo:#FCDA00 !default;
+$gsc-cafe:#897700 !default;
 
 $colors: () !default;
 $colors: map-merge(
@@ -61,6 +63,8 @@ $colors: map-merge(
     "gsc-celeste":$gsc-celeste,
     "gsc-azul":$gsc-azul,
     "gsc-verde":$gsc-verde,
+    "gsc-amarillo":$gsc-amarillo,
+    "gsc-cafe": $gsc-cafe,
     // end GSC Colors
     "blue":       $blue,
     "indigo":     $indigo,
@@ -91,6 +95,15 @@ $dark:          $gray-800 !default;
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
+    // GSC Colors
+    "gsc-primary" : $gsc-primary,
+    "gsc-secondary":$gsc-secondary,
+    "gsc-celeste":$gsc-celeste,
+    "gsc-azul":$gsc-azul,
+    "gsc-verde":$gsc-verde,
+    "gsc-amarillo":$gsc-amarillo,
+    "gsc-cafe": $gsc-cafe,
+    // end GSC Colors
     "primary":    $primary,
     "secondary":  $secondary,
     "success":    $success,
