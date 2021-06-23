@@ -23,3 +23,12 @@
         color:#000
     }
 }
+pre.code-square{
+    background-color: darken(steelblue,30%);
+    code{
+        color:greenyellow;
+        span.comentario{
+            color:white;
+        }
+    }
+}
