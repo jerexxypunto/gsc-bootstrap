@@ -2072,6 +2072,16 @@ pre code {
   color: #000;
 }
 
+pre.code-square {
+  background-color: #1b3246;
+}
+pre.code-square code {
+  color: greenyellow;
+}
+pre.code-square code span.comentario {
+  color: white;
+}
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
