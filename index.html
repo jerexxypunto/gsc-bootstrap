@@ -11,7 +11,7 @@
     <style>
         .contenedor-grid{
             display: grid;
-            grid-template-columns: repeat(3, 150px);
+            grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
             grid-template-rows: repeat(3, 100px);
             grid-gap: 10px;
         }
@@ -35,6 +35,8 @@
         </figure>
     </div>
     <div class="container">
+        <p>Verción de bootstrap original: <a href="https://getbootstrap.com/docs/4.6/getting-started/download/">bootstrap 4</a></p>
+        <hr/>
         <h2>Colores</h2>
         <div class="contenedor-grid">
             <div class="grid-item bg-gsc-primary">gsc-primary<br/><span class="bg-white">HEX: #99cc00</span></div>
