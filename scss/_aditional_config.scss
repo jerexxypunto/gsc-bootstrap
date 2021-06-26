@@ -26,6 +26,35 @@ $breackPoints: (
     }
 }
 
+@media screen and (min-width:map-get($breackPoints, sm)){
+    @for $i from 1 through 12{
+        .grid-col-sm-#{$i}{
+            grid-template-columns: repeat(#{$i},1fr);
+        }
+    }
+}
+@media screen and (min-width:map-get($breackPoints, md)){
+    @for $i from 1 through 12{
+        .grid-col-md-#{$i}{
+            grid-template-columns: repeat(#{$i},1fr);
+        }
+    }
+}
+@media screen and (min-width:map-get($breackPoints, lg)){
+    @for $i from 1 through 12{
+        .grid-col-lg-#{$i}{
+            grid-template-columns: repeat(#{$i},1fr);
+        }
+    }
+}
+@media screen and (min-width:map-get($breackPoints, xl)){
+    @for $i from 1 through 12{
+        .grid-col-lg-#{$i}{
+            grid-template-columns: repeat(#{$i},1fr);
+        }
+    }
+}
+
 .grid-item{
     width: 100%;
     height: 100%;
