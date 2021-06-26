@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="dist\css\bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-icons\font\bootstrap-icons.css">
+    <title> Columnas</title>
+</head>
+<body>
+
+    <h1 class="text-center pt-2">Columas con CSS grid</h1>
+    <div class="container">
+        <h5>En CSS grid las columnas se declaran en el elemento padre, no en los elementos hijos</h5>
+        <p>Los puntos de quiebre (breackpoint) son:</p>
+        <ul>
+            <li><code>$sm:</code>576px;</li>
+            <li><code>$md:</code>768px;</li>
+            <li><code>$lg:</code>992px;</li>
+            <li><code>$xl:</code>1200px;</li>
+        </ul>
+        <p>Cada <code>.template-grid</code> funciona con su propio punto de quiebre.</p>
+        <h4>Ejemplo:</h4>
+        <p>La clase <code>.grid-col-2</code> genera dos columnas, en cualquier tamaño de pantalla.</p>
+        <p>La clase <code>.grid-col-sm-2</code> genera dos columnas, pero sólo desde un <code>min-width:576px</code>.</p>
+        <p>La clase <code>.grid-col-md-2</code> genera dos columnas, pero sólo desde un <code>min-width:768px</code>.</p>
+        <p>La clase <code>.grid-col-lg-2</code> genera dos columnas, pero sólo desde un <code>min-width:992px</code>.</p>
+        <p>La clase <code>.grid-col-xs-2</code> genera dos columnas, pero sólo desde un <code>min-width:1200px</code>.</p>
+    </div>
+</body>
+</html>
