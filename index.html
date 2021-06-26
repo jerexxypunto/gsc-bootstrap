@@ -44,31 +44,46 @@
             <div class="grid-item bg-gsc-cafe">gsc-cafe<br/><span class="bg-white">HEX: #897700</span></div>
         </div>
     </div>
+    <hr />
     <div class="container my-3">
-        <h2>Grid</h2>
+        <h2>La Grid de GSC-Bootstrap</h2>
         <p>Bootstrap 4 trabaja una grilla con flexbox</p>
         <p>GSC-Bootstrap implementa una grilla con CSS Grid layout</p>
-        <hr/>
-        <h4>Clases css para usar grid</h4>
+        <h2>CSS Grid</h2>
+        <h5>En CSS grid las columnas se declaran en el elemento padre, no en los elementos hijos.</h5>
+        <p>La clase <code>.contenedor-grid</code> dota al contenedor de un <code>display:grid;</code></p>
+        <p>Los puntos de quiebre (breackpoint) son:</p>
         <ul>
-            <li><p>Contenedor con display grid: <br/> <code>.contenedor-grid</code></p></li>
-            <li><p>Esta clase se usa en conjuto con <code>.contenedor-grid</code> y dota al contenedor de tantas columnas como quepa en ancho del mismo contenedor: <br/> <code>.max-content-in-vw</code></p></li>
-            <li><p>Las clases css <code>gap-n°</code> tambien se utilizan solo en compañia de <code>.contenedor-grid</code> y determinan el espaciado entre los grid items: 
-                <ul>
-                        <li><code>.gap-5</code> </li>
-                        <li><code>.gap-10 </code> </li>
-                        <li><code>.gap-15 </code> </li>
-                        <li><code>.gap-20 </code> </li>
-                        <li><code>.gap-25 </code> </li>
-                        <li><code>.gap-30 </code> </li>
-                        <li><code>.gap-35 </code> </li>
-                        <li><code>.gap-40 </code> </li>
-                        <li><code>.gap-45 </code> </li>
-                        <li><code>.gap-50 </code> </li>
-                </ul>
-                </p>
-            </li>
+            <li><code>$sm:</code>576px;</li>
+            <li><code>$md:</code>768px;</li>
+            <li><code>$lg:</code>992px;</li>
+            <li><code>$xl:</code>1200px;</li>
         </ul>
+        <p>Cada <code>.template-grid</code> funciona con su propio punto de quiebre.</p>
+        <h4>Ejemplo:</h4>
+        <div class="pl-3">
+            <p>La clase <code>.grid-col-2</code> genera dos columnas, en cualquier tamaño de pantalla.</p>
+            <p>La clase <code>.grid-col-sm-2</code> genera dos columnas, pero sólo desde un <code>min-width:576px</code>.</p>
+            <p>La clase <code>.grid-col-md-2</code> genera dos columnas, pero sólo desde un <code>min-width:768px</code>.</p>
+            <p>La clase <code>.grid-col-lg-2</code> genera dos columnas, pero sólo desde un <code>min-width:992px</code>.</p>
+            <p>La clase <code>.grid-col-xs-2</code> genera dos columnas, pero sólo desde un <code>min-width:1200px</code>.</p>
+        </div>
+        <p>La clase <code>.grid-template-n°</code> establece cuantas columnas tendra el <code>.contenedor-grid</code></p>
+        <p>Esta clase se usa en conjuto con <code>.contenedor-grid</code> y dota al contenedor de tantas columnas como quepa en ancho del mismo contenedor: <br/> <code>.max-content-in-vw</code></p>
+        <p>Las clases css <code>gap-n°</code> tambien se utilizan solo en compañia de <code>.contenedor-grid</code> y determinan el espaciado entre los grid items: 
+        <ul>
+                <li><code>.gap-5</code> </li>
+                <li><code>.gap-10 </code> </li>
+                <li><code>.gap-15 </code> </li>
+                <li><code>.gap-20 </code> </li>
+                <li><code>.gap-25 </code> </li>
+                <li><code>.gap-30 </code> </li>
+                <li><code>.gap-35 </code> </li>
+                <li><code>.gap-40 </code> </li>
+                <li><code>.gap-45 </code> </li>
+                <li><code>.gap-50 </code> </li>
+        </ul>
+        </p>
     </div>
     <footer>
         <p class="container">
