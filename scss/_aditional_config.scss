@@ -20,6 +20,13 @@ $breackPoints: (
     grid-auto-rows:minmax(100px, auto);
 }
 
+@for $i from 1 through 5{
+    $num: $i * 100px;
+    .h#{$num}{
+        height: #{$num};
+    }
+}
+
 @for $i from 1 through 12{
     .grid-col-#{$i}{
         grid-template-columns: repeat(#{$i},1fr);

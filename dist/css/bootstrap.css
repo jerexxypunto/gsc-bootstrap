@@ -2059,6 +2059,26 @@ pre code {
   grid-gap: 50px;
 }
 
+.h100px {
+  height: 100px;
+}
+
+.h200px {
+  height: 200px;
+}
+
+.h300px {
+  height: 300px;
+}
+
+.h400px {
+  height: 400px;
+}
+
+.h500px {
+  height: 500px;
+}
+
 .grid-col-1 {
   -ms-grid-columns: (1fr)[1];
   grid-template-columns: repeat(1, 1fr);
