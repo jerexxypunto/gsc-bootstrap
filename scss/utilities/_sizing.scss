@@ -8,6 +8,19 @@
   }
 }
 
+@for $i from 1 through 10{
+  $num : $i * 50px;
+  .heigth-#{$num}{
+    height: #{$num};
+  }
+}
+@for $i from 1 through 10{
+  $num : $i * 100px;
+  .width-#{$num}{
+    width: #{$num};
+  }
+}
+
 .mw-100 { max-width: 100% !important; }
 .mh-100 { max-height: 100% !important; }
 

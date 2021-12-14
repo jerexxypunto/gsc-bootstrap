@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /*!
+ * GSC Bootstrap (https: //github.com/jerexxypunto/gsc-bootstrap)
+ * Basado: Bootstrap v4.6.0 (https: //getbootstrap.com/)
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -3283,6 +3285,10 @@ pre code {
     grid-column-end: span 12;
   }
 }
+.btn {
+  color: white !important;
+}
+
 .grid-item {
   width: 100%;
   height: 100%;
@@ -10779,6 +10785,86 @@ button.bg-dark:focus {
   height: auto !important;
 }
 
+.heigth-50px {
+  height: 50px;
+}
+
+.heigth-100px {
+  height: 100px;
+}
+
+.heigth-150px {
+  height: 150px;
+}
+
+.heigth-200px {
+  height: 200px;
+}
+
+.heigth-250px {
+  height: 250px;
+}
+
+.heigth-300px {
+  height: 300px;
+}
+
+.heigth-350px {
+  height: 350px;
+}
+
+.heigth-400px {
+  height: 400px;
+}
+
+.heigth-450px {
+  height: 450px;
+}
+
+.heigth-500px {
+  height: 500px;
+}
+
+.width-100px {
+  width: 100px;
+}
+
+.width-200px {
+  width: 200px;
+}
+
+.width-300px {
+  width: 300px;
+}
+
+.width-400px {
+  width: 400px;
+}
+
+.width-500px {
+  width: 500px;
+}
+
+.width-600px {
+  width: 600px;
+}
+
+.width-700px {
+  width: 700px;
+}
+
+.width-800px {
+  width: 800px;
+}
+
+.width-900px {
+  width: 900px;
+}
+
+.width-1000px {
+  width: 1000px;
+}
+
 .mw-100 {
   max-width: 100% !important;
 }
@@ -13365,4 +13451,3 @@ h3 {
     border-color: #dee2e6;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
