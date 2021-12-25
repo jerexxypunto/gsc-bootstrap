@@ -3308,6 +3308,9 @@ pre.code-square {
 pre.code-square code {
   color: greenyellow;
 }
+pre.code-square code > * {
+  font-size: 1rem;
+}
 pre.code-square code span.comentario {
   color: white;
 }

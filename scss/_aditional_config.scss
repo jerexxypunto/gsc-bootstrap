@@ -102,6 +102,9 @@ pre.code-square{
     background-color: darken(steelblue,30%);
     code{
         color:greenyellow;
+        & > * {
+            font-size: 1rem !important;
+        }
         span.comentario{
             color:white;
         }
