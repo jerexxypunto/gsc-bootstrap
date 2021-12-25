@@ -2022,62 +2022,62 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-.contenedor-grid {
+.grid-container {
   display: -ms-grid;
   display: grid;
   grid-auto-rows: minmax(100px, auto);
 }
-.contenedor-grid.max-content-in-vw {
+.grid-container.max-content-in-vw {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-.contenedor-grid.gap-5 {
+.grid-container.gap-5 {
   grid-gap: 5px;
 }
-.contenedor-grid.gap-10 {
+.grid-container.gap-10 {
   grid-gap: 10px;
 }
-.contenedor-grid.gap-15 {
+.grid-container.gap-15 {
   grid-gap: 15px;
 }
-.contenedor-grid.gap-20 {
+.grid-container.gap-20 {
   grid-gap: 20px;
 }
-.contenedor-grid.gap-25 {
+.grid-container.gap-25 {
   grid-gap: 25px;
 }
-.contenedor-grid.gap-30 {
+.grid-container.gap-30 {
   grid-gap: 30px;
 }
-.contenedor-grid.gap-35 {
+.grid-container.gap-35 {
   grid-gap: 35px;
 }
-.contenedor-grid.gap-40 {
+.grid-container.gap-40 {
   grid-gap: 40px;
 }
-.contenedor-grid.gap-45 {
+.grid-container.gap-45 {
   grid-gap: 45px;
 }
-.contenedor-grid.gap-50 {
+.grid-container.gap-50 {
   grid-gap: 50px;
 }
 
-.h100px {
+.h-100pxpx {
   height: 100px;
 }
 
-.h200px {
+.h-200pxpx {
   height: 200px;
 }
 
-.h300px {
+.h-300pxpx {
   height: 300px;
 }
 
-.h400px {
+.h-400pxpx {
   height: 400px;
 }
 
-.h500px {
+.h-500pxpx {
   height: 500px;
 }
 
@@ -2086,52 +2086,52 @@ pre code {
   grid-template-columns: repeat(1, 1fr);
 }
 
-.grid-row-1-of-50px {
+.grid-row-1-of-50pxpx {
   -ms-grid-rows: (50px)[1];
   grid-template-rows: repeat(1, 50px);
 }
 
-.grid-row-1-of-100px {
+.grid-row-1-of-100pxpx {
   -ms-grid-rows: (100px)[1];
   grid-template-rows: repeat(1, 100px);
 }
 
-.grid-row-1-of-150px {
+.grid-row-1-of-150pxpx {
   -ms-grid-rows: (150px)[1];
   grid-template-rows: repeat(1, 150px);
 }
 
-.grid-row-1-of-200px {
+.grid-row-1-of-200pxpx {
   -ms-grid-rows: (200px)[1];
   grid-template-rows: repeat(1, 200px);
 }
 
-.grid-row-1-of-250px {
+.grid-row-1-of-250pxpx {
   -ms-grid-rows: (250px)[1];
   grid-template-rows: repeat(1, 250px);
 }
 
-.grid-row-1-of-300px {
+.grid-row-1-of-300pxpx {
   -ms-grid-rows: (300px)[1];
   grid-template-rows: repeat(1, 300px);
 }
 
-.grid-row-1-of-350px {
+.grid-row-1-of-350pxpx {
   -ms-grid-rows: (350px)[1];
   grid-template-rows: repeat(1, 350px);
 }
 
-.grid-row-1-of-400px {
+.grid-row-1-of-400pxpx {
   -ms-grid-rows: (400px)[1];
   grid-template-rows: repeat(1, 400px);
 }
 
-.grid-row-1-of-450px {
+.grid-row-1-of-450pxpx {
   -ms-grid-rows: (450px)[1];
   grid-template-rows: repeat(1, 450px);
 }
 
-.grid-row-1-of-500px {
+.grid-row-1-of-500pxpx {
   -ms-grid-rows: (500px)[1];
   grid-template-rows: repeat(1, 500px);
 }
@@ -2146,52 +2146,52 @@ pre code {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-row-2-of-50px {
+.grid-row-2-of-50pxpx {
   -ms-grid-rows: (50px)[2];
   grid-template-rows: repeat(2, 50px);
 }
 
-.grid-row-2-of-100px {
+.grid-row-2-of-100pxpx {
   -ms-grid-rows: (100px)[2];
   grid-template-rows: repeat(2, 100px);
 }
 
-.grid-row-2-of-150px {
+.grid-row-2-of-150pxpx {
   -ms-grid-rows: (150px)[2];
   grid-template-rows: repeat(2, 150px);
 }
 
-.grid-row-2-of-200px {
+.grid-row-2-of-200pxpx {
   -ms-grid-rows: (200px)[2];
   grid-template-rows: repeat(2, 200px);
 }
 
-.grid-row-2-of-250px {
+.grid-row-2-of-250pxpx {
   -ms-grid-rows: (250px)[2];
   grid-template-rows: repeat(2, 250px);
 }
 
-.grid-row-2-of-300px {
+.grid-row-2-of-300pxpx {
   -ms-grid-rows: (300px)[2];
   grid-template-rows: repeat(2, 300px);
 }
 
-.grid-row-2-of-350px {
+.grid-row-2-of-350pxpx {
   -ms-grid-rows: (350px)[2];
   grid-template-rows: repeat(2, 350px);
 }
 
-.grid-row-2-of-400px {
+.grid-row-2-of-400pxpx {
   -ms-grid-rows: (400px)[2];
   grid-template-rows: repeat(2, 400px);
 }
 
-.grid-row-2-of-450px {
+.grid-row-2-of-450pxpx {
   -ms-grid-rows: (450px)[2];
   grid-template-rows: repeat(2, 450px);
 }
 
-.grid-row-2-of-500px {
+.grid-row-2-of-500pxpx {
   -ms-grid-rows: (500px)[2];
   grid-template-rows: repeat(2, 500px);
 }
@@ -2206,52 +2206,52 @@ pre code {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.grid-row-3-of-50px {
+.grid-row-3-of-50pxpx {
   -ms-grid-rows: (50px)[3];
   grid-template-rows: repeat(3, 50px);
 }
 
-.grid-row-3-of-100px {
+.grid-row-3-of-100pxpx {
   -ms-grid-rows: (100px)[3];
   grid-template-rows: repeat(3, 100px);
 }
 
-.grid-row-3-of-150px {
+.grid-row-3-of-150pxpx {
   -ms-grid-rows: (150px)[3];
   grid-template-rows: repeat(3, 150px);
 }
 
-.grid-row-3-of-200px {
+.grid-row-3-of-200pxpx {
   -ms-grid-rows: (200px)[3];
   grid-template-rows: repeat(3, 200px);
 }
 
-.grid-row-3-of-250px {
+.grid-row-3-of-250pxpx {
   -ms-grid-rows: (250px)[3];
   grid-template-rows: repeat(3, 250px);
 }
 
-.grid-row-3-of-300px {
+.grid-row-3-of-300pxpx {
   -ms-grid-rows: (300px)[3];
   grid-template-rows: repeat(3, 300px);
 }
 
-.grid-row-3-of-350px {
+.grid-row-3-of-350pxpx {
   -ms-grid-rows: (350px)[3];
   grid-template-rows: repeat(3, 350px);
 }
 
-.grid-row-3-of-400px {
+.grid-row-3-of-400pxpx {
   -ms-grid-rows: (400px)[3];
   grid-template-rows: repeat(3, 400px);
 }
 
-.grid-row-3-of-450px {
+.grid-row-3-of-450pxpx {
   -ms-grid-rows: (450px)[3];
   grid-template-rows: repeat(3, 450px);
 }
 
-.grid-row-3-of-500px {
+.grid-row-3-of-500pxpx {
   -ms-grid-rows: (500px)[3];
   grid-template-rows: repeat(3, 500px);
 }
@@ -2266,52 +2266,52 @@ pre code {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid-row-4-of-50px {
+.grid-row-4-of-50pxpx {
   -ms-grid-rows: (50px)[4];
   grid-template-rows: repeat(4, 50px);
 }
 
-.grid-row-4-of-100px {
+.grid-row-4-of-100pxpx {
   -ms-grid-rows: (100px)[4];
   grid-template-rows: repeat(4, 100px);
 }
 
-.grid-row-4-of-150px {
+.grid-row-4-of-150pxpx {
   -ms-grid-rows: (150px)[4];
   grid-template-rows: repeat(4, 150px);
 }
 
-.grid-row-4-of-200px {
+.grid-row-4-of-200pxpx {
   -ms-grid-rows: (200px)[4];
   grid-template-rows: repeat(4, 200px);
 }
 
-.grid-row-4-of-250px {
+.grid-row-4-of-250pxpx {
   -ms-grid-rows: (250px)[4];
   grid-template-rows: repeat(4, 250px);
 }
 
-.grid-row-4-of-300px {
+.grid-row-4-of-300pxpx {
   -ms-grid-rows: (300px)[4];
   grid-template-rows: repeat(4, 300px);
 }
 
-.grid-row-4-of-350px {
+.grid-row-4-of-350pxpx {
   -ms-grid-rows: (350px)[4];
   grid-template-rows: repeat(4, 350px);
 }
 
-.grid-row-4-of-400px {
+.grid-row-4-of-400pxpx {
   -ms-grid-rows: (400px)[4];
   grid-template-rows: repeat(4, 400px);
 }
 
-.grid-row-4-of-450px {
+.grid-row-4-of-450pxpx {
   -ms-grid-rows: (450px)[4];
   grid-template-rows: repeat(4, 450px);
 }
 
-.grid-row-4-of-500px {
+.grid-row-4-of-500pxpx {
   -ms-grid-rows: (500px)[4];
   grid-template-rows: repeat(4, 500px);
 }
@@ -2326,52 +2326,52 @@ pre code {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.grid-row-5-of-50px {
+.grid-row-5-of-50pxpx {
   -ms-grid-rows: (50px)[5];
   grid-template-rows: repeat(5, 50px);
 }
 
-.grid-row-5-of-100px {
+.grid-row-5-of-100pxpx {
   -ms-grid-rows: (100px)[5];
   grid-template-rows: repeat(5, 100px);
 }
 
-.grid-row-5-of-150px {
+.grid-row-5-of-150pxpx {
   -ms-grid-rows: (150px)[5];
   grid-template-rows: repeat(5, 150px);
 }
 
-.grid-row-5-of-200px {
+.grid-row-5-of-200pxpx {
   -ms-grid-rows: (200px)[5];
   grid-template-rows: repeat(5, 200px);
 }
 
-.grid-row-5-of-250px {
+.grid-row-5-of-250pxpx {
   -ms-grid-rows: (250px)[5];
   grid-template-rows: repeat(5, 250px);
 }
 
-.grid-row-5-of-300px {
+.grid-row-5-of-300pxpx {
   -ms-grid-rows: (300px)[5];
   grid-template-rows: repeat(5, 300px);
 }
 
-.grid-row-5-of-350px {
+.grid-row-5-of-350pxpx {
   -ms-grid-rows: (350px)[5];
   grid-template-rows: repeat(5, 350px);
 }
 
-.grid-row-5-of-400px {
+.grid-row-5-of-400pxpx {
   -ms-grid-rows: (400px)[5];
   grid-template-rows: repeat(5, 400px);
 }
 
-.grid-row-5-of-450px {
+.grid-row-5-of-450pxpx {
   -ms-grid-rows: (450px)[5];
   grid-template-rows: repeat(5, 450px);
 }
 
-.grid-row-5-of-500px {
+.grid-row-5-of-500pxpx {
   -ms-grid-rows: (500px)[5];
   grid-template-rows: repeat(5, 500px);
 }
@@ -2386,52 +2386,52 @@ pre code {
   grid-template-columns: repeat(6, 1fr);
 }
 
-.grid-row-6-of-50px {
+.grid-row-6-of-50pxpx {
   -ms-grid-rows: (50px)[6];
   grid-template-rows: repeat(6, 50px);
 }
 
-.grid-row-6-of-100px {
+.grid-row-6-of-100pxpx {
   -ms-grid-rows: (100px)[6];
   grid-template-rows: repeat(6, 100px);
 }
 
-.grid-row-6-of-150px {
+.grid-row-6-of-150pxpx {
   -ms-grid-rows: (150px)[6];
   grid-template-rows: repeat(6, 150px);
 }
 
-.grid-row-6-of-200px {
+.grid-row-6-of-200pxpx {
   -ms-grid-rows: (200px)[6];
   grid-template-rows: repeat(6, 200px);
 }
 
-.grid-row-6-of-250px {
+.grid-row-6-of-250pxpx {
   -ms-grid-rows: (250px)[6];
   grid-template-rows: repeat(6, 250px);
 }
 
-.grid-row-6-of-300px {
+.grid-row-6-of-300pxpx {
   -ms-grid-rows: (300px)[6];
   grid-template-rows: repeat(6, 300px);
 }
 
-.grid-row-6-of-350px {
+.grid-row-6-of-350pxpx {
   -ms-grid-rows: (350px)[6];
   grid-template-rows: repeat(6, 350px);
 }
 
-.grid-row-6-of-400px {
+.grid-row-6-of-400pxpx {
   -ms-grid-rows: (400px)[6];
   grid-template-rows: repeat(6, 400px);
 }
 
-.grid-row-6-of-450px {
+.grid-row-6-of-450pxpx {
   -ms-grid-rows: (450px)[6];
   grid-template-rows: repeat(6, 450px);
 }
 
-.grid-row-6-of-500px {
+.grid-row-6-of-500pxpx {
   -ms-grid-rows: (500px)[6];
   grid-template-rows: repeat(6, 500px);
 }
@@ -2446,52 +2446,52 @@ pre code {
   grid-template-columns: repeat(7, 1fr);
 }
 
-.grid-row-7-of-50px {
+.grid-row-7-of-50pxpx {
   -ms-grid-rows: (50px)[7];
   grid-template-rows: repeat(7, 50px);
 }
 
-.grid-row-7-of-100px {
+.grid-row-7-of-100pxpx {
   -ms-grid-rows: (100px)[7];
   grid-template-rows: repeat(7, 100px);
 }
 
-.grid-row-7-of-150px {
+.grid-row-7-of-150pxpx {
   -ms-grid-rows: (150px)[7];
   grid-template-rows: repeat(7, 150px);
 }
 
-.grid-row-7-of-200px {
+.grid-row-7-of-200pxpx {
   -ms-grid-rows: (200px)[7];
   grid-template-rows: repeat(7, 200px);
 }
 
-.grid-row-7-of-250px {
+.grid-row-7-of-250pxpx {
   -ms-grid-rows: (250px)[7];
   grid-template-rows: repeat(7, 250px);
 }
 
-.grid-row-7-of-300px {
+.grid-row-7-of-300pxpx {
   -ms-grid-rows: (300px)[7];
   grid-template-rows: repeat(7, 300px);
 }
 
-.grid-row-7-of-350px {
+.grid-row-7-of-350pxpx {
   -ms-grid-rows: (350px)[7];
   grid-template-rows: repeat(7, 350px);
 }
 
-.grid-row-7-of-400px {
+.grid-row-7-of-400pxpx {
   -ms-grid-rows: (400px)[7];
   grid-template-rows: repeat(7, 400px);
 }
 
-.grid-row-7-of-450px {
+.grid-row-7-of-450pxpx {
   -ms-grid-rows: (450px)[7];
   grid-template-rows: repeat(7, 450px);
 }
 
-.grid-row-7-of-500px {
+.grid-row-7-of-500pxpx {
   -ms-grid-rows: (500px)[7];
   grid-template-rows: repeat(7, 500px);
 }
@@ -2506,52 +2506,52 @@ pre code {
   grid-template-columns: repeat(8, 1fr);
 }
 
-.grid-row-8-of-50px {
+.grid-row-8-of-50pxpx {
   -ms-grid-rows: (50px)[8];
   grid-template-rows: repeat(8, 50px);
 }
 
-.grid-row-8-of-100px {
+.grid-row-8-of-100pxpx {
   -ms-grid-rows: (100px)[8];
   grid-template-rows: repeat(8, 100px);
 }
 
-.grid-row-8-of-150px {
+.grid-row-8-of-150pxpx {
   -ms-grid-rows: (150px)[8];
   grid-template-rows: repeat(8, 150px);
 }
 
-.grid-row-8-of-200px {
+.grid-row-8-of-200pxpx {
   -ms-grid-rows: (200px)[8];
   grid-template-rows: repeat(8, 200px);
 }
 
-.grid-row-8-of-250px {
+.grid-row-8-of-250pxpx {
   -ms-grid-rows: (250px)[8];
   grid-template-rows: repeat(8, 250px);
 }
 
-.grid-row-8-of-300px {
+.grid-row-8-of-300pxpx {
   -ms-grid-rows: (300px)[8];
   grid-template-rows: repeat(8, 300px);
 }
 
-.grid-row-8-of-350px {
+.grid-row-8-of-350pxpx {
   -ms-grid-rows: (350px)[8];
   grid-template-rows: repeat(8, 350px);
 }
 
-.grid-row-8-of-400px {
+.grid-row-8-of-400pxpx {
   -ms-grid-rows: (400px)[8];
   grid-template-rows: repeat(8, 400px);
 }
 
-.grid-row-8-of-450px {
+.grid-row-8-of-450pxpx {
   -ms-grid-rows: (450px)[8];
   grid-template-rows: repeat(8, 450px);
 }
 
-.grid-row-8-of-500px {
+.grid-row-8-of-500pxpx {
   -ms-grid-rows: (500px)[8];
   grid-template-rows: repeat(8, 500px);
 }
@@ -2566,52 +2566,52 @@ pre code {
   grid-template-columns: repeat(9, 1fr);
 }
 
-.grid-row-9-of-50px {
+.grid-row-9-of-50pxpx {
   -ms-grid-rows: (50px)[9];
   grid-template-rows: repeat(9, 50px);
 }
 
-.grid-row-9-of-100px {
+.grid-row-9-of-100pxpx {
   -ms-grid-rows: (100px)[9];
   grid-template-rows: repeat(9, 100px);
 }
 
-.grid-row-9-of-150px {
+.grid-row-9-of-150pxpx {
   -ms-grid-rows: (150px)[9];
   grid-template-rows: repeat(9, 150px);
 }
 
-.grid-row-9-of-200px {
+.grid-row-9-of-200pxpx {
   -ms-grid-rows: (200px)[9];
   grid-template-rows: repeat(9, 200px);
 }
 
-.grid-row-9-of-250px {
+.grid-row-9-of-250pxpx {
   -ms-grid-rows: (250px)[9];
   grid-template-rows: repeat(9, 250px);
 }
 
-.grid-row-9-of-300px {
+.grid-row-9-of-300pxpx {
   -ms-grid-rows: (300px)[9];
   grid-template-rows: repeat(9, 300px);
 }
 
-.grid-row-9-of-350px {
+.grid-row-9-of-350pxpx {
   -ms-grid-rows: (350px)[9];
   grid-template-rows: repeat(9, 350px);
 }
 
-.grid-row-9-of-400px {
+.grid-row-9-of-400pxpx {
   -ms-grid-rows: (400px)[9];
   grid-template-rows: repeat(9, 400px);
 }
 
-.grid-row-9-of-450px {
+.grid-row-9-of-450pxpx {
   -ms-grid-rows: (450px)[9];
   grid-template-rows: repeat(9, 450px);
 }
 
-.grid-row-9-of-500px {
+.grid-row-9-of-500pxpx {
   -ms-grid-rows: (500px)[9];
   grid-template-rows: repeat(9, 500px);
 }
@@ -2626,52 +2626,52 @@ pre code {
   grid-template-columns: repeat(10, 1fr);
 }
 
-.grid-row-10-of-50px {
+.grid-row-10-of-50pxpx {
   -ms-grid-rows: (50px)[10];
   grid-template-rows: repeat(10, 50px);
 }
 
-.grid-row-10-of-100px {
+.grid-row-10-of-100pxpx {
   -ms-grid-rows: (100px)[10];
   grid-template-rows: repeat(10, 100px);
 }
 
-.grid-row-10-of-150px {
+.grid-row-10-of-150pxpx {
   -ms-grid-rows: (150px)[10];
   grid-template-rows: repeat(10, 150px);
 }
 
-.grid-row-10-of-200px {
+.grid-row-10-of-200pxpx {
   -ms-grid-rows: (200px)[10];
   grid-template-rows: repeat(10, 200px);
 }
 
-.grid-row-10-of-250px {
+.grid-row-10-of-250pxpx {
   -ms-grid-rows: (250px)[10];
   grid-template-rows: repeat(10, 250px);
 }
 
-.grid-row-10-of-300px {
+.grid-row-10-of-300pxpx {
   -ms-grid-rows: (300px)[10];
   grid-template-rows: repeat(10, 300px);
 }
 
-.grid-row-10-of-350px {
+.grid-row-10-of-350pxpx {
   -ms-grid-rows: (350px)[10];
   grid-template-rows: repeat(10, 350px);
 }
 
-.grid-row-10-of-400px {
+.grid-row-10-of-400pxpx {
   -ms-grid-rows: (400px)[10];
   grid-template-rows: repeat(10, 400px);
 }
 
-.grid-row-10-of-450px {
+.grid-row-10-of-450pxpx {
   -ms-grid-rows: (450px)[10];
   grid-template-rows: repeat(10, 450px);
 }
 
-.grid-row-10-of-500px {
+.grid-row-10-of-500pxpx {
   -ms-grid-rows: (500px)[10];
   grid-template-rows: repeat(10, 500px);
 }
@@ -2686,52 +2686,52 @@ pre code {
   grid-template-columns: repeat(11, 1fr);
 }
 
-.grid-row-11-of-50px {
+.grid-row-11-of-50pxpx {
   -ms-grid-rows: (50px)[11];
   grid-template-rows: repeat(11, 50px);
 }
 
-.grid-row-11-of-100px {
+.grid-row-11-of-100pxpx {
   -ms-grid-rows: (100px)[11];
   grid-template-rows: repeat(11, 100px);
 }
 
-.grid-row-11-of-150px {
+.grid-row-11-of-150pxpx {
   -ms-grid-rows: (150px)[11];
   grid-template-rows: repeat(11, 150px);
 }
 
-.grid-row-11-of-200px {
+.grid-row-11-of-200pxpx {
   -ms-grid-rows: (200px)[11];
   grid-template-rows: repeat(11, 200px);
 }
 
-.grid-row-11-of-250px {
+.grid-row-11-of-250pxpx {
   -ms-grid-rows: (250px)[11];
   grid-template-rows: repeat(11, 250px);
 }
 
-.grid-row-11-of-300px {
+.grid-row-11-of-300pxpx {
   -ms-grid-rows: (300px)[11];
   grid-template-rows: repeat(11, 300px);
 }
 
-.grid-row-11-of-350px {
+.grid-row-11-of-350pxpx {
   -ms-grid-rows: (350px)[11];
   grid-template-rows: repeat(11, 350px);
 }
 
-.grid-row-11-of-400px {
+.grid-row-11-of-400pxpx {
   -ms-grid-rows: (400px)[11];
   grid-template-rows: repeat(11, 400px);
 }
 
-.grid-row-11-of-450px {
+.grid-row-11-of-450pxpx {
   -ms-grid-rows: (450px)[11];
   grid-template-rows: repeat(11, 450px);
 }
 
-.grid-row-11-of-500px {
+.grid-row-11-of-500pxpx {
   -ms-grid-rows: (500px)[11];
   grid-template-rows: repeat(11, 500px);
 }
@@ -2746,52 +2746,52 @@ pre code {
   grid-template-columns: repeat(12, 1fr);
 }
 
-.grid-row-12-of-50px {
+.grid-row-12-of-50pxpx {
   -ms-grid-rows: (50px)[12];
   grid-template-rows: repeat(12, 50px);
 }
 
-.grid-row-12-of-100px {
+.grid-row-12-of-100pxpx {
   -ms-grid-rows: (100px)[12];
   grid-template-rows: repeat(12, 100px);
 }
 
-.grid-row-12-of-150px {
+.grid-row-12-of-150pxpx {
   -ms-grid-rows: (150px)[12];
   grid-template-rows: repeat(12, 150px);
 }
 
-.grid-row-12-of-200px {
+.grid-row-12-of-200pxpx {
   -ms-grid-rows: (200px)[12];
   grid-template-rows: repeat(12, 200px);
 }
 
-.grid-row-12-of-250px {
+.grid-row-12-of-250pxpx {
   -ms-grid-rows: (250px)[12];
   grid-template-rows: repeat(12, 250px);
 }
 
-.grid-row-12-of-300px {
+.grid-row-12-of-300pxpx {
   -ms-grid-rows: (300px)[12];
   grid-template-rows: repeat(12, 300px);
 }
 
-.grid-row-12-of-350px {
+.grid-row-12-of-350pxpx {
   -ms-grid-rows: (350px)[12];
   grid-template-rows: repeat(12, 350px);
 }
 
-.grid-row-12-of-400px {
+.grid-row-12-of-400pxpx {
   -ms-grid-rows: (400px)[12];
   grid-template-rows: repeat(12, 400px);
 }
 
-.grid-row-12-of-450px {
+.grid-row-12-of-450pxpx {
   -ms-grid-rows: (450px)[12];
   grid-template-rows: repeat(12, 450px);
 }
 
-.grid-row-12-of-500px {
+.grid-row-12-of-500pxpx {
   -ms-grid-rows: (500px)[12];
   grid-template-rows: repeat(12, 500px);
 }
@@ -3289,7 +3289,7 @@ pre code {
   color: white !important;
 }
 
-.grid-item {
+.grid-place-items {
   width: 100%;
   height: 100%;
   display: -ms-grid;
@@ -3297,7 +3297,7 @@ pre code {
   place-items: center;
   color: white;
 }
-.grid-item span {
+.grid-place-items span {
   padding: 5px;
   color: #000;
 }

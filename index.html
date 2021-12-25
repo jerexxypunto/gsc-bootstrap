@@ -5,11 +5,243 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GSC Bootstrap</title>
-    <link rel="stylesheet" href="/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/dist/css/gsc-bootstrap.css">
 </head>
 <body>
     <div class="container">
-        <div class="item bg-gsc-primary heigth-150px width-500px">#item</div>
+        <h1 class="display-4 font-weight-bold">GSC-Bootsrapp</h1>
+        <hr/>
+
+        <h2>Heigth</h2>
+        <p>Clases para heigth</p>
+        <ul>
+            <li><code>.h-100px</code></li>
+            <li><code>.h-200px</code></li>
+            <li><code>.h-300px</code></li>
+            <li><code>.h-400px</code></li>
+            <li><code>.h-500px</code></li>
+        </ul>
+        <h2>Displays</h2>
+
+        <h3 class="display-1">Display-1</h3>
+        <h3 class="display-2">Display-2</h3>
+        <h3 class="display-3">Display-3</h3>
+        <h3 class="display-4">Display-4</h3>
+
+        <pre class="code-square">
+            <code>
+                < h3 class="display-1"> Display-1  < /h3>
+                < h3 class="display-2"> Display-2  < /h3>
+                < h3 class="display-3"> Display-3  < /h3>
+                < h3 class="display-4"> Display-4  < /h3> 
+            </code>
+        </pre>
+        <script>
+            const codeAll = document.querySelectorAll(".code-square code");
+            codeAll[0].textContent = codeAll[0].innerHTML.replaceAll("<",`<span style="color:white;"> < </span>`);
+        </script>
+        <h2>Tamaño de fuentes</h2>
+        <div class="d-flex justify-content-between align-items-center">
+            <h1>h1</h1>
+            <code>font-size: 2.5rem;</code>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>h2</h2>
+            <code>font-size: 2rem;</code>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h3>h3</h3>
+            <code>font-size: 1.75rem;</code>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h4>h4</h4>
+            <code>font-size: 1.5rem;</code>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h5>h5</h5>
+            <code>font-size: 1.25rem;</code>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <h6>h6</h6>
+            <code>font-size: 1rem;</code>
+        </div>
+
+        <h4 class="mt-5">Breackpoint perzonalizados</h4>
+        <ul>
+            <li><code>sm:576px</code></li>
+            <li><code>md:768px</code></li>
+            <li><code>lg:992px</code></li>
+            <li><code>xl:1200px</code></li>
+        </ul>
+
+        <h2 class="my-5">Display Grid</h2>
+        <h3>Grid container</h3>
+        <p>Para dar a un contenedor un un <code>display-grid</code>, use la clase css <code>.grid-container</code>.</p>
+        <p>Para hacer que el contendor con display grid tenga una cuadricula autoajustable use la clase css <code>.max-content-in-vw</code> en el mismo div en que se puso <code>.grid-container</code></p>
+        <h3 class="my-2">Grid Columns</h3>
+        <p>Para añadir columnas a su contenedor grid use las clases css <code>.grid-col-n°</code>.</p>
+        <p>Estas clases usan la regla css <code>grid-template-columns: repeat(n°,1fr);</code> tomando n° un valor entre 1 a 12.</p>
+        <ul>
+            <li><code>.grid-col-1</code></li>
+            <li><code>.grid-col-2</code></li>
+            <li><code>.grid-col-3</code></li>
+            <li><code>.grid-col-4</code></li>
+            <li><code>.grid-col-5</code></li>
+            <li><code>.grid-col-6</code></li>
+            <li><code>.grid-col-7</code></li>
+            <li><code>.grid-col-8</code></li>
+            <li><code>.grid-col-9</code></li>
+            <li><code>.grid-col-10</code></li>
+            <li><code>.grid-col-11</code></li>
+            <li><code>.grid-col-12</code></li>
+        </ul>
+
+        <h3 class="my-2">Grid row</h3>
+        <p>Por defecto la clase css <code>.grid-container</code> tiene un <code>min-heigth:100px;</code>.</p>
+        <p>Para asignar filas al contenedor-grid pude usar la classe css <code>.grid-row-a°-of-b°</code>.</p>
+        <p>Dónde el numero <code>a°</code> puede tomar un valor entre 1 - 10 que el numero de veces que se repite el numero b°.</p>
+        <p>Dónde el numero <code>b°</code> pude tomar un valor entre 50 y 500 de 50 en 50 y representa el el alto de cada cuadricula.</p>
+        <div class="grid-container grid-col-4">
+            <ul>
+                <h3>50px de alto</h3>
+                <li><code>.grid-row-1-of-50px</code></li>
+                <li><code>.grid-row-2-of-50px</code></li>
+                <li><code>.grid-row-3-of-50px</code></li>
+                <li><code>.grid-row-4-of-50px</code></li>
+                <li><code>.grid-row-5-of-50px</code></li>
+                <li><code>.grid-row-6-of-50px</code></li>
+                <li><code>.grid-row-7-of-50px</code></li>
+                <li><code>.grid-row-8-of-50px</code></li>
+                <li><code>.grid-row-9-of-50px</code></li>
+                <li><code>.grid-row-10-of-50px</code></li>
+            </ul>
+            <ul class="my-4">
+                <h3>100px de alto</h3>
+                <li><code>.grid-row-1-of-100px</code></li>
+                <li><code>.grid-row-2-of-100px</code></li>
+                <li><code>.grid-row-3-of-100px</code></li>
+                <li><code>.grid-row-4-of-100px</code></li>
+                <li><code>.grid-row-5-of-100px</code></li>
+                <li><code>.grid-row-6-of-100px</code></li>
+                <li><code>.grid-row-7-of-100px</code></li>
+                <li><code>.grid-row-8-of-100px</code></li>
+                <li><code>.grid-row-9-of-100px</code></li>
+                <li><code>.grid-row-10-of-100px</code></li>
+            </ul>
+            
+            <ul class="my-4">
+                <h3>150px de alto</h3>
+                <li><code>.grid-row-1-of-150px</code></li>
+                <li><code>.grid-row-2-of-150px</code></li>
+                <li><code>.grid-row-3-of-150px</code></li>
+                <li><code>.grid-row-4-of-150px</code></li>
+                <li><code>.grid-row-5-of-150px</code></li>
+                <li><code>.grid-row-6-of-150px</code></li>
+                <li><code>.grid-row-7-of-150px</code></li>
+                <li><code>.grid-row-8-of-150px</code></li>
+                <li><code>.grid-row-9-of-150px</code></li>
+                <li><code>.grid-row-10-of-150px</code></li>
+            </ul>
+            
+            <ul class="my-4">
+                <h3>200px de alto</h3>
+                <li><code>.grid-row-1-of-200px</code></li>
+                <li><code>.grid-row-2-of-200px</code></li>
+                <li><code>.grid-row-3-of-200px</code></li>
+                <li><code>.grid-row-4-of-200px</code></li>
+                <li><code>.grid-row-5-of-200px</code></li>
+                <li><code>.grid-row-6-of-200px</code></li>
+                <li><code>.grid-row-7-of-200px</code></li>
+                <li><code>.grid-row-8-of-200px</code></li>
+                <li><code>.grid-row-9-of-200px</code></li>
+                <li><code>.grid-row-10-of-200px</code></li>
+            </ul>
+            
+            <ul class="my-4">
+                <h3>250px de alto</h3>
+                <li><code>.grid-row-1-of-250px</code></li>
+                <li><code>.grid-row-2-of-250px</code></li>
+                <li><code>.grid-row-3-of-250px</code></li>
+                <li><code>.grid-row-4-of-250px</code></li>
+                <li><code>.grid-row-5-of-250px</code></li>
+                <li><code>.grid-row-6-of-250px</code></li>
+                <li><code>.grid-row-7-of-250px</code></li>
+                <li><code>.grid-row-8-of-250px</code></li>
+                <li><code>.grid-row-9-of-250px</code></li>
+                <li><code>.grid-row-10-of-250px</code></li>
+            </ul>
+            
+            <ul class="my-4">
+                <h3>300px de alto</h3>
+                <li><code>.grid-row-1-of-300px</code></li>
+                <li><code>.grid-row-2-of-300px</code></li>
+                <li><code>.grid-row-3-of-300px</code></li>
+                <li><code>.grid-row-4-of-300px</code></li>
+                <li><code>.grid-row-5-of-300px</code></li>
+                <li><code>.grid-row-6-of-300px</code></li>
+                <li><code>.grid-row-7-of-300px</code></li>
+                <li><code>.grid-row-8-of-300px</code></li>
+                <li><code>.grid-row-9-of-300px</code></li>
+                <li><code>.grid-row-10-of-300px</code></li>
+            </ul>
+            
+            <ul class="my-4">
+                <h3>350px de alto</h3>
+                <li><code>.grid-row-1-of-350</code></li>
+                <li><code>.grid-row-2-of-350</code></li>
+                <li><code>.grid-row-3-of-350</code></li>
+                <li><code>.grid-row-4-of-350</code></li>
+                <li><code>.grid-row-5-of-350</code></li>
+                <li><code>.grid-row-6-of-350</code></li>
+                <li><code>.grid-row-7-of-350</code></li>
+                <li><code>.grid-row-8-of-350</code></li>
+                <li><code>.grid-row-9-of-350</code></li>
+                <li><code>.grid-row-10-of-350</code></li>
+            </ul>
+            
+            <ul class="my-4">
+                <h3>400px de alto</h3>
+                <li><code>.grid-row-1-of-400px</code></li>
+                <li><code>.grid-row-2-of-400px</code></li>
+                <li><code>.grid-row-3-of-400px</code></li>
+                <li><code>.grid-row-4-of-400px</code></li>
+                <li><code>.grid-row-5-of-400px</code></li>
+                <li><code>.grid-row-6-of-400px</code></li>
+                <li><code>.grid-row-7-of-400px</code></li>
+                <li><code>.grid-row-8-of-400px</code></li>
+                <li><code>.grid-row-9-of-400px</code></li>
+                <li><code>.grid-row-10-of-400px</code></li>
+            </ul>
+            
+            <ul class="my-4">
+                <h3>450px de alto</h3>
+                <li><code>.grid-row-1-of-450px</code></li>
+                <li><code>.grid-row-2-of-450px</code></li>
+                <li><code>.grid-row-3-of-450px</code></li>
+                <li><code>.grid-row-4-of-450px</code></li>
+                <li><code>.grid-row-5-of-450px</code></li>
+                <li><code>.grid-row-6-of-450px</code></li>
+                <li><code>.grid-row-7-of-450px</code></li>
+                <li><code>.grid-row-8-of-450px</code></li>
+                <li><code>.grid-row-9-of-450px</code></li>
+                <li><code>.grid-row-10-of-450px</code></li>
+            </ul>
+            
+            <ul class="my-4">
+                <h3>500px de alto</h3>
+                <li><code>.grid-row-1-of-500px</code></li>
+                <li><code>.grid-row-2-of-500px</code></li>
+                <li><code>.grid-row-3-of-500px</code></li>
+                <li><code>.grid-row-4-of-500px</code></li>
+                <li><code>.grid-row-5-of-500px</code></li>
+                <li><code>.grid-row-6-of-500px</code></li>
+                <li><code>.grid-row-7-of-500px</code></li>
+                <li><code>.grid-row-8-of-500px</code></li>
+                <li><code>.grid-row-9-of-500px</code></li>
+                <li><code>.grid-row-10-of-500px</code></li>
+            </ul>
+        </div>
+
     </div>
 </body>
 </html>

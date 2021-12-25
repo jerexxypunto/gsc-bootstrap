@@ -5,7 +5,7 @@ $breackPoints: (
     xl:1200px
 );
 
-.contenedor-grid{
+.grid-container{
     display: grid;
     &.max-content-in-vw{
         grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
@@ -22,7 +22,7 @@ $breackPoints: (
 
 @for $i from 1 through 5{
     $num: $i * 100px;
-    .h#{$num}{
+    .h-#{$num}px{
         height: #{$num};
     }
 }
@@ -33,7 +33,7 @@ $breackPoints: (
     }
     @for $e from 1 through 10{
         $num: $e * 50px;
-        .grid-row-#{$i}-of-#{$num}{
+        .grid-row-#{$i}-of-#{$num}px{
             grid-template-rows:repeat(#{$i},#{$num});
         }
     }
@@ -87,7 +87,7 @@ $breackPoints: (
     color: white !important;
 }
 
-.grid-item{
+.grid-place-items{
     width: 100%;
     height: 100%;
     display: grid;
