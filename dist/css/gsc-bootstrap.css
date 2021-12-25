@@ -2061,23 +2061,23 @@ pre code {
   grid-gap: 50px;
 }
 
-.h-100pxpx {
+.h-100px {
   height: 100px;
 }
 
-.h-200pxpx {
+.h-200px {
   height: 200px;
 }
 
-.h-300pxpx {
+.h-300px {
   height: 300px;
 }
 
-.h-400pxpx {
+.h-400px {
   height: 400px;
 }
 
-.h-500pxpx {
+.h-500px {
   height: 500px;
 }
 
@@ -3309,7 +3309,7 @@ pre.code-square code {
   color: greenyellow;
 }
 pre.code-square code > * {
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 pre.code-square code span.comentario {
   color: white;

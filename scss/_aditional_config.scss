@@ -22,7 +22,7 @@ $breackPoints: (
 
 @for $i from 1 through 5{
     $num: $i * 100px;
-    .h-#{$num}px{
+    .h-#{$num}{
         height: #{$num};
     }
 }
