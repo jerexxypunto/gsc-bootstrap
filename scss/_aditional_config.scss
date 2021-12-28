@@ -20,8 +20,8 @@ $breackPoints: (
     grid-auto-rows:minmax(100px, auto);
 }
 
-@for $i from 1 through 5{
-    $num: $i * 100px;
+@for $i from 1 through 10{
+    $num: $i * 10px;
     .h-#{$num}{
         height: #{$num};
     }
@@ -85,6 +85,27 @@ $breackPoints: (
 
 .btn {
     color: white !important;
+}
+
+@for $i from 0 through 10 {
+
+    $num: $i * 0.5;
+    .line-height-#{$i} {
+        line-height:#{$num}rem;
+    }
+    $num1: $i * 10px;
+    .bottom-#{$num1}{
+        bottom:$num1;
+    }
+    .top-#{$num1} {
+        top: $num1;
+    }
+    .left-#{$num1} {
+        left: $num1;
+    }
+    .right-#{$num1} {
+        right: $num1;
+    }
 }
 
 .grid-place-items{
