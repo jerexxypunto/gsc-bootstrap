@@ -20,7 +20,7 @@ $breackPoints: (
     grid-auto-rows:minmax(100px, auto);
 }
 
-@for $i from 1 through 10{
+@for $i from 1 through 50{
     $num: $i * 10px;
     .h-#{$num}{
         height: #{$num};
@@ -144,4 +144,9 @@ img.img-contain {
     height: 100%;
     display: block;
     object-fit: contain;
+}
+
+
+.overflow-hidden{
+    overflow: hidden;
 }
