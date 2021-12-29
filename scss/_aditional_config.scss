@@ -25,6 +25,9 @@ $breackPoints: (
     .h-#{$num}{
         height: #{$num};
     }
+    .min-heigth#{$num}{
+        min-height: $num;
+    }
 }
 
 @for $i from 1 through 12{
