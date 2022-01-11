@@ -153,3 +153,23 @@ img.img-contain {
 .overflow-hidden{
     overflow: hidden;
 }
+
+.shadow-inset{
+    box-shadow: rgba(#000,30%) 0 0 3px 1px inset ;
+    border-radius: 10px;
+}
+
+.list-style-none ul,
+ul.list-style-none{
+    list-style: none;
+}
+
+.smoth-scroll{
+    scroll-behavior: smooth;
+}
+body  *:target{
+    outline: 2px solid rgba(#9c0,50%);
+    padding: 10px 5px;
+    background-color:#99cc0040;
+    
+}
