@@ -7,54 +7,18 @@
     <title>GSC Bootstrap</title>
     <link rel="stylesheet" href="./dist/css/gsc-bootstrap.css">
     <link rel="shortcut icon" href="./gsc.png" type="image/x-icon">
+    <style>
+        .list-style-none{
+            grid-column: 1/2;
+            grid-row: 1/-1;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1 class="display-4 font-weight-bold">GSC-Bootsrapp</h1>
         <hr/>
-        <div class="grid-container grid-col-3">
-            <div class="list-style-none">
-                <h3>Diseño</h3>   
-                <ul>
-                    <li><a href="#color">color</a></li>
-                    <li><a href="#alert">alert</a></li>
-                </ul>
-                <h3>Layout</h3>
-                <ul>
-                    <li><a href="#heigth">heigth</a></li>
-                    <li><a href="#position">position</a></li>
-                </ul>
-                <h3><a href="#texto">Texto</a></h3>
-                <ul>
-                    <li><a href="#display">display</a></li>
-                    <li><a href="#font-size">Tamaño de titulos</a></li>
-                    <li><a href="#line-heigth">line-heigth</a></li>
-                </ul>
-                <h3>Breackpoints</h3>
-                <ul>
-                    <li><a href="#breackpoint">breackpoint</a></li>
-                </ul>
-                <h3>CSS Grid</h3>
-                <ul>
-                    <li><a href="#grid">grid</a></li>
-                </ul>
-                <h3>Code</h3>
-                <ul>
-                    <li><a href="#code">code</a></li>
-                </ul>
-                <h3>Imagenes</h3>
-                <ul>
-                    <li><a href="#image">image</a></li>
-                </ul>
-                <h3>Shadow</h3>
-                <ul>
-                    <li><a href="#shadow">shadow</a></li>
-                </ul>
-                <h3>Overflows</h3>
-                <ul>
-                    <li><a href="#overflow">overflow</a></li>
-                </ul>
-            </div>
+        <div id="list_menu" class="grid-container grid-col-3">
             <div class="grid-span-2">
                 <section id="color" class="my-5">
                     <h2 class="text-gsc-primary display-4 mb-5">Colores GSC</h2>
@@ -648,5 +612,6 @@
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
