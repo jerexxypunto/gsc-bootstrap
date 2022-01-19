@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@200;500;800&display=swap');
+
+$font-open-sans: 'Open Sans', sans-serif;
+$font-roboto-slab: 'Roboto Slab', serif;
+
+.font-openSans{
+    font-family: $font-open-sans;
+}
+
+.font-openSans.fw-400{
+    font-weight: 400;
+}
+.font-openSans.fw-400-italic{
+    font-weight: 400;
+    font-style: italic;
+}
+.font-openSans.fw-700{
+    font-weight: 700;
+}
+.font-openSans.fw-700-italic{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.font-robotoSlab{
+    font-family: $font-roboto-slab;
+}
+
+.font-robotoSlab.fw-200{
+    font-weight: 200;   
+}
+.font-robotoSlab.fw-500{
+    font-weight: 500;   
+}
+.font-robotoSlab.fw-800{
+    font-weight: 800;   
+}

@@ -7,6 +7,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@200;500;800&display=swap");
 :root {
   --gsc-primary: #99cc00;
   --gsc-secondary: #FEA500;
@@ -3957,6 +3958,44 @@ body *:target {
   outline: 2px solid rgba(153, 204, 0, 0.5);
   padding: 10px 5px;
   background-color: #99cc0040;
+}
+
+.font-openSans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-openSans.fw-400 {
+  font-weight: 400;
+}
+
+.font-openSans.fw-400-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-openSans.fw-700 {
+  font-weight: 700;
+}
+
+.font-openSans.fw-700-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-robotoSlab {
+  font-family: "Roboto Slab", serif;
+}
+
+.font-robotoSlab.fw-200 {
+  font-weight: 200;
+}
+
+.font-robotoSlab.fw-500 {
+  font-weight: 500;
+}
+
+.font-robotoSlab.fw-800 {
+  font-weight: 800;
 }
 
 .table {
