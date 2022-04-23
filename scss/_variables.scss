@@ -45,27 +45,18 @@ $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
 // GSC Colors
-$gsc-primary : #99cc00 !default;
-$gsc-secondary:#FEA500 !default;
+$verde : #99cc00 !default;
+$anaranjado:#FEA500 !default;
   
-$gsc-celeste:#01E7FD !default;
-$gsc-azul:#00B1C2 !default;
-$gsc-verde:#B1EC00 !default;
-$gsc-amarillo:#FCDA00 !default;
-$gsc-cafe:#897700 !default;
+$celeste:#01E7FD !default;
+$azul:#00B1C2 !default;
+$verde-claro:#B1EC00 !default;
+$amarillo:#FCDA00 !default;
+$cafe:#897700 !default;
 
 $colors: () !default;
 $colors: map-merge(
   (
-    // GSC Colors
-    "gsc-primary" : $gsc-primary,
-    "gsc-secondary":$gsc-secondary,
-    "gsc-celeste":$gsc-celeste,
-    "gsc-azul":$gsc-azul,
-    "gsc-verde":$gsc-verde,
-    "gsc-amarillo":$gsc-amarillo,
-    "gsc-cafe": $gsc-cafe,
-    // end GSC Colors
     "blue":       $blue,
     "indigo":     $indigo,
     "purple":     $purple,
@@ -78,7 +69,14 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    "verde" : $verde,
+    "anaranjado": $anaranjado,
+    "celeste" : $celeste,
+    "azul" : $azul,
+    "verde-claro": $verde-claro,
+    "amarillo" : $amarillo,
+    "cafe" : $cafe,
   ),
   $colors
 );
@@ -92,17 +90,27 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
+//GSC Color
+$gsc-principal : $verde !default;
+$gsc-verde : $verde-claro !default;
+$gsc-secundario: $azul !default;
+$gsc-celeste : $celeste !default;
+$gsc-amarillo : $amarillo !default;
+$gsc-anaranjado : $anaranjado !default;
+$gsc-cafe : $cafe !default;
+
+
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
     // GSC Colors
-    "gsc-primary" : $gsc-primary,
-    "gsc-secondary":$gsc-secondary,
-    "gsc-celeste":$gsc-celeste,
-    "gsc-azul":$gsc-azul,
+    "gsc-principal":$gsc-principal,
     "gsc-verde":$gsc-verde,
+    "gsc-secundario":$gsc-secundario,
+    "gsc-celeste":$gsc-celeste,
     "gsc-amarillo":$gsc-amarillo,
-    "gsc-cafe": $gsc-cafe,
+    "gsc-anaranjado":$gsc-anaranjado,
+    "gsc-cafe":$gsc-cafe ,
     // end GSC Colors
     "primary":    $primary,
     "secondary":  $secondary,
@@ -201,7 +209,7 @@ $body-color:                $gray-900 !default;
 //
 // Style anchor elements.
 
-$link-color:                              theme-color("gsc-primary") !default;
+$link-color:                              theme-color("gsc-principal") !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 15%) !default;
 $link-hover-decoration:                   underline !default;
