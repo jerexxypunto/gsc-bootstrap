@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es" class="smoth-scroll">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSC Bootstrap</title>
+    <link rel="stylesheet" href="./dist/css/gsc-bootstrap.css">
+    <link rel="shortcut icon" href="./gsc.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container pb-5">
+        <h1 class="display-4 font-weight-bold">GSCJS - Components</h1>
+        <hr/>
+        <h3>Contador</h3>
+        <div class="gsc-counter">
+            <h4>Contador: <span class="gsc-counter__value"  data-gsc-count="10"></span></h4>
+        </div>
+        <div id="app">
+
+        </div>
+    </div>
+    <script src="GSCJS/gscjs.js"></script>
+    <script>
+        const gscCounter = GSCJS.setCounter(GSCJS.queryOnly(".gsc-counter__value"),1000);
+    </script>
+</body>
+</html>
