@@ -3957,7 +3957,7 @@ ul.list-style-none {
 body *:target {
   outline: 2px solid rgba(153, 204, 0, 0.5);
   padding: 10px 5px;
-  background-color: #99cc0040;
+  background-color: rgba(153, 204, 0, 0.2509803922);
 }
 
 .font-openSans {
@@ -14136,5 +14136,13 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.gsc-counter {
+  padding: 5pt 10pt;
+}
+.gsc-counter__value {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
 }
 /*# sourceMappingURL=gsc-bootstrap.css.map */
